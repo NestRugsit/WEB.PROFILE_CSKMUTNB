@@ -553,7 +553,7 @@ footer{
                 
                 <a href="#child"><img class="go" src="image/Master Logo_KMUTNB_Thai PNG.png"></a>
                 <div class="bar">
-                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-bars" id="tag"></i>
                 </div>
                 <nav >
                     <a href="#Whoami" class="nava"><b>ผมคือใคร</b></a>
@@ -1012,8 +1012,9 @@ close3.addEventListener('click' , () => {
         }
         }
         @media screen and (max-width: 1050px){
-        .bar > i{
-            display: block;
+        #tag {
+             margin-right: 2rem;
+            display:block;
         }
         nav{
             position:absolute;
@@ -1067,6 +1068,25 @@ close3.addEventListener('click' , () => {
 
 
         @media screen and (max-width: 620px){
+        nav{
+            margin-top: 23rem;
+        }
+        #tag{
+           top: 3rem;
+            right: 5rem;
+            position: absolute;
+            
+        }
+        .nava{
+            
+            padding-top: 0.5rem;
+        }
+        .nava b{
+            font-size: 1rem;
+            margin-right: 3.5rem;
+        }
+        
+       
         
         .item{
            width: 100%;
@@ -1095,7 +1115,7 @@ close3.addEventListener('click' , () => {
             padding-left: 0rem;
         }
         .itemheart{
-            height: 600px;
+            height: 700px;
         }
         .contentfondnessh{
            
